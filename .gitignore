@@ -1,0 +1,11 @@
+.gitignore
+test*
+index.html
+api.md
+*.sql
+avatar
+*.env
+placeholder.json
+socket.md
+ft_transcendence.pdf
+friendApi.md

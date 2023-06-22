@@ -1,0 +1,23 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+    - master
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: self-hosted
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Copy
+        run: cp -r /pongsh_env/* ./
+
+      - name: Up
+        run: docker compose up --force-recreate --no-deps --build frontend backend --wait
+
+      - name: Clean
+        run: docker image prune -f
