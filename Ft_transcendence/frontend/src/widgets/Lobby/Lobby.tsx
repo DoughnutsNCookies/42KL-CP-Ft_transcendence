@@ -22,7 +22,7 @@ import { ErrorData } from '../../model/ErrorData';
 import UserContext from '../../contexts/UserContext'
 import sleep from '../../functions/sleep'
 import Triangle from '../../components/Triangle'
-import { FaAngry, FaHandMiddleFinger, FaHeart, FaPoop, FaQuestion, FaSadCry, FaSkull, FaSmile, FaThumbsDown, FaThumbsUp, FaTrash, FaWheelchair } from 'react-icons/fa'
+import { FaAngry, FaBeer, FaHeart, FaHotjar, FaPoop, FaQuestion, FaSadCry, FaSkull, FaThumbsDown, FaThumbsUp } from 'react-icons/fa'
 import terminator from '../../../assets/terminator.webp'
 import rick from '../../../assets/rick.png'
 import musk from '../../../assets/musk.jpeg'
@@ -31,26 +31,26 @@ const emoteList = [
   <FaThumbsUp size={100} />,
   <FaThumbsDown size={100} />,
   <FaSkull size={100} />,
-  <FaWheelchair size={100} />,
   <FaQuestion size={100} />,
   <FaSadCry size={100} />,
   <FaAngry size={100} />,
   <FaPoop size={100} />,
   <FaHeart size={100} />,
-  <FaTrash size={100} />,
+  <FaHotjar size={100} />,
+  <FaBeer size={100} />,
 ]
 
 const emoteListSmall = [
   <FaThumbsUp size={25} />,
   <FaThumbsDown size={25} />,
   <FaSkull size={25} />,
-  <FaWheelchair size={25} />,
   <FaQuestion size={25} />,
   <FaSadCry size={25} />,
   <FaAngry size={25} />,
   <FaPoop size={25} />,
   <FaHeart size={25} />,
-  <FaTrash size={25} />,
+  <FaHotjar size={25} />,
+  <FaBeer size={25} />,
 ]
 
 function Lobby() {
