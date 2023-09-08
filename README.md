@@ -23,7 +23,7 @@ We also received commendations for the projects’ contribution to promoting int
 
 ## Gameplay Demo
 
-![App Screenshot](https://github.com/DoughnutsNCookies/42KL-CP-Ft_transcendence/blob/main/readmeAssets/PongSH-gif.gif)
+![Gameplay Demo](https://github.com/DoughnutsNCookies/42KL-CP-Ft_transcendence/blob/main/readmeAssets/PongSH-gif.gif)
 
 
 ## Tech Stack
