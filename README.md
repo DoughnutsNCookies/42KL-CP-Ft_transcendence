@@ -11,7 +11,7 @@ This project took us two and a half months to learn everything and to create Pon
 
 ## Video Demo
 
-You can check out this link to the showcase video where I presented this project
+You can check out this link to the showcase video where I presented this project.
 
 Link: https://youtu.be/xx9_5AKXx6Y
 
